@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Intelligent Video Survellance System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+  </head>
+  <body>
+    <h1>Video Analysis Result</h1>
+    <div id="videoContainer">
+      <video id="videoPlayer" controls></video>
+      <div id="resultOverlay"></div>
+    </div>
+
+    <form id="uploadForm" method="post" action="/" enctype="multipart/form-data">
+      <input type="file" id="videoInput" name="video" accept=".mp4, .avi">
+      <input type="submit" value="Upload and Analyze">
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>

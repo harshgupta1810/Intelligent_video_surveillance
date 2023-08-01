@@ -1,0 +1,106 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  background-color: #f7f7f7; /* Light Gray */
+  padding: 20px;
+  color: #333333; /* Dark Gray text color */
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222222; /* Slightly darker than Dark Gray */
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+}
+
+/* Video container styles */
+#videoContainer {
+  position: relative;
+  margin-bottom: 20px;
+  border: 2px solid #dddddd; /* Light Gray border color */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+#videoContainer:hover {
+  transform: scale(1.02); /* Slightly scale up on hover */
+}
+
+/* Video player styles */
+#videoPlayer {
+  width: 100%;
+}
+
+/* Result overlay styles */
+#resultOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent Dark overlay */
+  backdrop-filter: blur(5px); /* Blurred effect for modern look */
+  pointer-events: none; /* Allows clicks to pass through to the video player */
+}
+
+/* Upload form styles */
+#uploadForm {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* File input styles */
+#videoInput {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 12px;
+  border: 2px solid #dddddd; /* Light Gray border color */
+  border-radius: 4px;
+  background-color: #f7f7f7; /* Light Gray background */
+  color: #333333; /* Dark Gray text color */
+}
+
+/* Submit button styles */
+input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  color: #ffffff; /* White text color */
+  background-color: #4682b4; /* Steel Blue */
+  border: none;
+  padding: 14px 32px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+}
+
+input[type="submit"]:hover {
+  background-color: #87bfff; /* Lighter Steel Blue on hover */
+}
+
+
+/* Additional styles specific to your requirements */
+
+/* Clear and Legible font theme */
+body {
+  font-family: "Roboto", Arial, sans-serif;
+}
