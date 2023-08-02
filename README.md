@@ -19,10 +19,10 @@ This project is an Intelligent Video Surveillance System that uses a custom data
 ## Project Demo
 ### Result Demo
 A demo video showcasing the Intelligent Video Surveillance System in action can be found at 
-[Demo Video](result.mp4).
+![Demo Video](result.mp4).
 ### FrontEnd 
-[1](frontend1.png)
-[1](frontend1.png)
+![1](frontend1.png)
+![1](frontend1.png)
 
 ## Badges
 
