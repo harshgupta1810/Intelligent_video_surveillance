@@ -59,7 +59,15 @@ The code uses a pre-trained neural network model (`saved_model.h5`) to detect ab
 7. If the smoothed loss exceeds the threshold, an abnormal event is detected.
 
 The code continuously processes video frames and displays the video with detected abnormal events marked.
+### frontend 
+1. The frontend provides a simple user interface to upload a video file for analysis. Follow these steps to use the Intelligent Video Surveillance System frontend:
+2. The frontend provides a simple user interface to upload a video file for analysis. Follow these steps to use the Intelligent Video Surveillance System frontend:
+3. Click on the "Choose File" button to select a video file (supported formats: .mp4 and .avi).
+4. Click on the "Choose File" button to select a video file (supported formats: .mp4 and .avi).
+5. The video will be played in the video player, and the analysis result overlay will be displayed.
+6. The result overlay will indicate whether the video contains an "Abnormal Event Detected" or "No Abnormal Event Detected."
 
+   
 ## Configuration
 
 1. Replace the `path` variable with the path to the video file you want to analyze.
@@ -92,4 +100,4 @@ To use the Intelligent Video Surveillance System, follow these steps:
 
 The script will process the video frames, detect abnormal events, and display the video stream with any detected abnormal events marked. You can adjust the threshold and other parameters to achieve optimal anomaly detection performance for different scenarios.
 
-Feel free to use this Intelligent Video Surveillance System for real-time anomaly detection in video streams and enhance your security and monitoring systems. Happy coding!
+
