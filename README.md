@@ -1,4 +1,4 @@
-# Intelligent Video Surveillance System
+# Vigilant Sentinel : Video Surveillance
 
 This project is an Intelligent Video Surveillance System that uses a custom database created from various videos downloaded from the internet. The system is trained on a dataset consisting of normal events captured in different locations, such as malls and streets. The trained model aims to detect abnormal events in real-time video streams.
 
